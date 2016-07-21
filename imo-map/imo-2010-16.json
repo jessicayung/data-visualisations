@@ -1,0 +1,482 @@
+[
+ {
+   "Country_Code": "al",
+   "Average_Rank_2010_2016": 77.75
+ },
+ {
+   "Country_Code": "dz",
+   "Average_Rank_2010_2016": 72
+ },
+ {
+   "Country_Code": "ar",
+   "Average_Rank_2010_2016": 55.83333333
+ },
+ {
+   "Country_Code": "am",
+   "Average_Rank_2010_2016": 41.5
+ },
+ {
+   "Country_Code": "au",
+   "Average_Rank_2010_2016": 18.16666667
+ },
+ {
+   "Country_Code": "at",
+   "Average_Rank_2010_2016": 48.5
+ },
+ {
+   "Country_Code": "az",
+   "Average_Rank_2010_2016": 57.16666667
+ },
+ {
+   "Country_Code": "be",
+   "Average_Rank_2010_2016": 48.66666667
+ },
+ {
+   "Country_Code": "bj",
+   "Average_Rank_2010_2016": 98
+ },
+ {
+   "Country_Code": "bf",
+   "Average_Rank_2010_2016": 89
+ },
+ {
+   "Country_Code": "bd",
+   "Average_Rank_2010_2016": 51.33333333
+ },
+ {
+   "Country_Code": "bg",
+   "Average_Rank_2010_2016": 26.83333333
+ },
+ {
+   "Country_Code": "ba",
+   "Average_Rank_2010_2016": 51.5
+ },
+ {
+   "Country_Code": "by",
+   "Average_Rank_2010_2016": 30.83333333
+ },
+ {
+   "Country_Code": "bo",
+   "Average_Rank_2010_2016": 95.4
+ },
+ {
+   "Country_Code": "br",
+   "Average_Rank_2010_2016": 23
+ },
+ {
+   "Country_Code": "bw",
+   "Average_Rank_2010_2016": 103
+ },
+ {
+   "Country_Code": "ca",
+   "Average_Rank_2010_2016": 10.5
+ },
+ {
+   "Country_Code": "cl",
+   "Average_Rank_2010_2016": 79.83333333
+ },
+ {
+   "Country_Code": "cn",
+   "Average_Rank_2010_2016": 1.666666667
+ },
+ {
+   "Country_Code": "ci",
+   "Average_Rank_2010_2016": 88
+ },
+ {
+   "Country_Code": "co",
+   "Average_Rank_2010_2016": 52.5
+ },
+ {
+   "Country_Code": "cr",
+   "Average_Rank_2010_2016": 61.16666667
+ },
+ {
+   "Country_Code": "cu",
+   "Average_Rank_2010_2016": 93
+ },
+ {
+   "Country_Code": "cy",
+   "Average_Rank_2010_2016": 68.16666667
+ },
+ {
+   "Country_Code": "cz",
+   "Average_Rank_2010_2016": 39.5
+ },
+ {
+   "Country_Code": "dk",
+   "Average_Rank_2010_2016": 67.5
+ },
+ {
+   "Country_Code": "ec",
+   "Average_Rank_2010_2016": 79.16666667
+ },
+ {
+   "Country_Code": "eg",
+   "Average_Rank_2010_2016": 104
+ },
+ {
+   "Country_Code": "es",
+   "Average_Rank_2010_2016": 56
+ },
+ {
+   "Country_Code": "ee",
+   "Average_Rank_2010_2016": 63
+ },
+ {
+   "Country_Code": "fi",
+   "Average_Rank_2010_2016": 68.66666667
+ },
+ {
+   "Country_Code": "fr",
+   "Average_Rank_2010_2016": 29.5
+ },
+ {
+   "Country_Code": "ge",
+   "Average_Rank_2010_2016": 52.5
+ },
+ {
+   "Country_Code": "de",
+   "Average_Rank_2010_2016": 21.83333333
+ },
+ {
+   "Country_Code": "gh",
+   "Average_Rank_2010_2016": 102
+ },
+ {
+   "Country_Code": "gm",
+   "Average_Rank_2010_2016": 100
+ },
+ {
+   "Country_Code": "gt",
+   "Average_Rank_2010_2016": 95
+ },
+ {
+   "Country_Code": "gr",
+   "Average_Rank_2010_2016": 41
+ },
+ {
+   "Country_Code": "cn",
+   "Average_Rank_2010_2016": 21.16666667
+ },
+ {
+   "Country_Code": "hn",
+   "Average_Rank_2010_2016": 91.5
+ },
+ {
+   "Country_Code": "hr",
+   "Average_Rank_2010_2016": 27.5
+ },
+ {
+   "Country_Code": "hu",
+   "Average_Rank_2010_2016": 22.33333333
+ },
+ {
+   "Country_Code": "id",
+   "Average_Rank_2010_2016": 26.83333333
+ },
+ {
+   "Country_Code": "in",
+   "Average_Rank_2010_2016": 28.83333333
+ },
+ {
+   "Country_Code": "ie",
+   "Average_Rank_2010_2016": 76.16666667
+ },
+ {
+   "Country_Code": "ir",
+   "Average_Rank_2010_2016": 13.33333333
+ },
+ {
+   "Country_Code": "iq",
+   "Average_Rank_2010_2016": 107
+ },
+ {
+   "Country_Code": "is",
+   "Average_Rank_2010_2016": 80.33333333
+ },
+ {
+   "Country_Code": "il",
+   "Average_Rank_2010_2016": 24.5
+ },
+ {
+   "Country_Code": "it",
+   "Average_Rank_2010_2016": 24.5
+ },
+ {
+   "Country_Code": "jm",
+   "Average_Rank_2010_2016": 102
+ },
+ {
+   "Country_Code": "jp",
+   "Average_Rank_2010_2016": 12.83333333
+ },
+ {
+   "Country_Code": "kz",
+   "Average_Rank_2010_2016": 30.16666667
+ },
+ {
+   "Country_Code": "ke",
+   "Average_Rank_2010_2016": 99
+ },
+ {
+   "Country_Code": "kg",
+   "Average_Rank_2010_2016": 82.16666667
+ },
+ {
+   "Country_Code": "kh",
+   "Average_Rank_2010_2016": 91
+ },
+ {
+   "Country_Code": "kr",
+   "Average_Rank_2010_2016": 4.666666667
+ },
+ {
+   "Country_Code": "kv",
+   "Average_Rank_2010_2016": 85
+ },
+ {
+   "Country_Code": "kw",
+   "Average_Rank_2010_2016": 100
+ },
+ {
+   "Country_Code": "la",
+   "Average_Rank_2010_2016": 109
+ },
+ {
+   "Country_Code": "li",
+   "Average_Rank_2010_2016": 94.5
+ },
+ {
+   "Country_Code": "lk",
+   "Average_Rank_2010_2016": 67
+ },
+ {
+   "Country_Code": "lt",
+   "Average_Rank_2010_2016": 51
+ },
+ {
+   "Country_Code": "lu",
+   "Average_Rank_2010_2016": 83.5
+ },
+ {
+   "Country_Code": "lv",
+   "Average_Rank_2010_2016": 68
+ },
+ {
+   "Country_Code": "cn",
+   "Average_Rank_2010_2016": 52.8
+ },
+ {
+   "Country_Code": "ma",
+   "Average_Rank_2010_2016": 75.66666667
+ },
+ {
+   "Country_Code": "my",
+   "Average_Rank_2010_2016": 40.5
+ },
+ {
+   "Country_Code": "md",
+   "Average_Rank_2010_2016": 46.5
+ },
+ {
+   "Country_Code": "mg",
+   "Average_Rank_2010_2016": 100
+ },
+ {
+   "Country_Code": "mx",
+   "Average_Rank_2010_2016": 23
+ },
+ {
+   "Country_Code": "mk",
+   "Average_Rank_2010_2016": 71.66666667
+ },
+ {
+   "Country_Code": "mm",
+   "Average_Rank_2010_2016": 96
+ },
+ {
+   "Country_Code": "me",
+   "Average_Rank_2010_2016": 92
+ },
+ {
+   "Country_Code": "mn",
+   "Average_Rank_2010_2016": 43.5
+ },
+ {
+   "Country_Code": "ng",
+   "Average_Rank_2010_2016": 81.16666667
+ },
+ {
+   "Country_Code": "ni",
+   "Average_Rank_2010_2016": 81.33333333
+ },
+ {
+   "Country_Code": "nl",
+   "Average_Rank_2010_2016": 29.16666667
+ },
+ {
+   "Country_Code": "no",
+   "Average_Rank_2010_2016": 71.5
+ },
+ {
+   "Country_Code": "nz",
+   "Average_Rank_2010_2016": 48.66666667
+ },
+ {
+   "Country_Code": "pk",
+   "Average_Rank_2010_2016": 80.66666667
+ },
+ {
+   "Country_Code": "pa",
+   "Average_Rank_2010_2016": 92.8
+ },
+ {
+   "Country_Code": "py",
+   "Average_Rank_2010_2016": 73.33333333
+ },
+ {
+   "Country_Code": "pe",
+   "Average_Rank_2010_2016": 23.83333333
+ },
+ {
+   "Country_Code": "ph",
+   "Average_Rank_2010_2016": 46.33333333
+ },
+ {
+   "Country_Code": "pl",
+   "Average_Rank_2010_2016": 27.16666667
+ },
+ {
+   "Country_Code": "pt",
+   "Average_Rank_2010_2016": 41.83333333
+ },
+ {
+   "Country_Code": "pr",
+   "Average_Rank_2010_2016": 86.66666667
+ },
+ {
+   "Country_Code": "kp",
+   "Average_Rank_2010_2016": 8
+ },
+ {
+   "Country_Code": "ro",
+   "Average_Rank_2010_2016": 14
+ },
+ {
+   "Country_Code": "ru",
+   "Average_Rank_2010_2016": 5.166666667
+ },
+ {
+   "Country_Code": "za",
+   "Average_Rank_2010_2016": 55.33333333
+ },
+ {
+   "Country_Code": "sa",
+   "Average_Rank_2010_2016": 44.33333333
+ },
+ {
+   "Country_Code": "sg",
+   "Average_Rank_2010_2016": 6.333333333
+ },
+ {
+   "Country_Code": "sv",
+   "Average_Rank_2010_2016": 86.6
+ },
+ {
+   "Country_Code": "rs",
+   "Average_Rank_2010_2016": 27.66666667
+ },
+ {
+   "Country_Code": "ch",
+   "Average_Rank_2010_2016": 43.5
+ },
+ {
+   "Country_Code": "sk",
+   "Average_Rank_2010_2016": 39
+ },
+ {
+   "Country_Code": "si",
+   "Average_Rank_2010_2016": 64.33333333
+ },
+ {
+   "Country_Code": "se",
+   "Average_Rank_2010_2016": 56.5
+ },
+ {
+   "Country_Code": "sy",
+   "Average_Rank_2010_2016": 74.16666667
+ },
+ {
+   "Country_Code": "th",
+   "Average_Rank_2010_2016": 11.33333333
+ },
+ {
+   "Country_Code": "tj",
+   "Average_Rank_2010_2016": 55.16666667
+ },
+ {
+   "Country_Code": "tm",
+   "Average_Rank_2010_2016": 57.2
+ },
+ {
+   "Country_Code": "tt",
+   "Average_Rank_2010_2016": 86
+ },
+ {
+   "Country_Code": "tn",
+   "Average_Rank_2010_2016": 76.83333333
+ },
+ {
+   "Country_Code": "tr",
+   "Average_Rank_2010_2016": 16.83333333
+ },
+ {
+   "Country_Code": "tw",
+   "Average_Rank_2010_2016": 9.333333333
+ },
+ {
+   "Country_Code": "tz",
+   "Average_Rank_2010_2016": 102.6666667
+ },
+ {
+   "Country_Code": "ae",
+   "Average_Rank_2010_2016": 100
+ },
+ {
+   "Country_Code": "ug",
+   "Average_Rank_2010_2016": 97.2
+ },
+ {
+   "Country_Code": "ua",
+   "Average_Rank_2010_2016": 16.16666667
+ },
+ {
+   "Country_Code": "gb",
+   "Average_Rank_2010_2016": 16.16666667
+ },
+ {
+   "Country_Code": "uy",
+   "Average_Rank_2010_2016": 88.5
+ },
+ {
+   "Country_Code": "us",
+   "Average_Rank_2010_2016": 2
+ },
+ {
+   "Country_Code": "uz",
+   "Average_Rank_2010_2016": 67
+ },
+ {
+   "Country_Code": "ve",
+   "Average_Rank_2010_2016": 90.16666667
+ },
+ {
+   "Country_Code": "vn",
+   "Average_Rank_2010_2016": 12.16666667
+ },
+ {
+   "Country_Code": "zw",
+   "Average_Rank_2010_2016": 94
+ }
+]

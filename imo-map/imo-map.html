@@ -1,0 +1,551 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highmaps Example</title>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+#container {
+    height: 750px; 
+    min-width: 350px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    // Prepare data
+    var data = [
+                 {
+                   "code": "al",
+                   "value": 77.75
+                 },
+                 {
+                   "code": "dz",
+                   "value": 72
+                 },
+                 {
+                   "code": "ar",
+                   "value": 55.83333333
+                 },
+                 {
+                   "code": "am",
+                   "value": 41.5
+                 },
+                 {
+                   "code": "au",
+                   "value": 18.16666667
+                 },
+                 {
+                   "code": "at",
+                   "value": 48.5
+                 },
+                 {
+                   "code": "az",
+                   "value": 57.16666667
+                 },
+                 {
+                   "code": "be",
+                   "value": 48.66666667
+                 },
+                 {
+                   "code": "bj",
+                   "value": 98
+                 },
+                 {
+                   "code": "bf",
+                   "value": 89
+                 },
+                 {
+                   "code": "bd",
+                   "value": 51.33333333
+                 },
+                 {
+                   "code": "bg",
+                   "value": 26.83333333
+                 },
+                 {
+                   "code": "ba",
+                   "value": 51.5
+                 },
+                 {
+                   "code": "by",
+                   "value": 30.83333333
+                 },
+                 {
+                   "code": "bo",
+                   "value": 95.4
+                 },
+                 {
+                   "code": "br",
+                   "value": 23
+                 },
+                 {
+                   "code": "bw",
+                   "value": 103
+                 },
+                 {
+                   "code": "ca",
+                   "value": 10.5
+                 },
+                 {
+                   "code": "cl",
+                   "value": 79.83333333
+                 },
+                 {
+                   "code": "cn",
+                   "value": 1.666666667
+                 },
+                 {
+                   "code": "ci",
+                   "value": 88
+                 },
+                 {
+                   "code": "co",
+                   "value": 52.5
+                 },
+                 {
+                   "code": "cr",
+                   "value": 61.16666667
+                 },
+                 {
+                   "code": "cu",
+                   "value": 93
+                 },
+                 {
+                   "code": "cy",
+                   "value": 68.16666667
+                 },
+                 {
+                   "code": "cz",
+                   "value": 39.5
+                 },
+                 {
+                   "code": "dk",
+                   "value": 67.5
+                 },
+                 {
+                   "code": "ec",
+                   "value": 79.16666667
+                 },
+                 {
+                   "code": "eg",
+                   "value": 104
+                 },
+                 {
+                   "code": "es",
+                   "value": 56
+                 },
+                 {
+                   "code": "ee",
+                   "value": 63
+                 },
+                 {
+                   "code": "fi",
+                   "value": 68.66666667
+                 },
+                 {
+                   "code": "fr",
+                   "value": 29.5
+                 },
+                 {
+                   "code": "ge",
+                   "value": 52.5
+                 },
+                 {
+                   "code": "de",
+                   "value": 21.83333333
+                 },
+                 {
+                   "code": "gh",
+                   "value": 102
+                 },
+                 {
+                   "code": "gm",
+                   "value": 100
+                 },
+                 {
+                   "code": "gt",
+                   "value": 95
+                 },
+                 {
+                   "code": "gr",
+                   "value": 41
+                 },
+                 {
+                   "code": "hn",
+                   "value": 91.5
+                 },
+                 {
+                   "code": "hr",
+                   "value": 27.5
+                 },
+                 {
+                   "code": "hu",
+                   "value": 22.33333333
+                 },
+                 {
+                   "code": "id",
+                   "value": 26.83333333
+                 },
+                 {
+                   "code": "in",
+                   "value": 28.83333333
+                 },
+                 {
+                   "code": "ie",
+                   "value": 76.16666667
+                 },
+                 {
+                   "code": "ir",
+                   "value": 13.33333333
+                 },
+                 {
+                   "code": "iq",
+                   "value": 107
+                 },
+                 {
+                   "code": "is",
+                   "value": 80.33333333
+                 },
+                 {
+                   "code": "il",
+                   "value": 24.5
+                 },
+                 {
+                   "code": "it",
+                   "value": 24.5
+                 },
+                 {
+                   "code": "jm",
+                   "value": 102
+                 },
+                 {
+                   "code": "jp",
+                   "value": 12.83333333
+                 },
+                 {
+                   "code": "kz",
+                   "value": 30.16666667
+                 },
+                 {
+                   "code": "ke",
+                   "value": 99
+                 },
+                 {
+                   "code": "kg",
+                   "value": 82.16666667
+                 },
+                 {
+                   "code": "kh",
+                   "value": 91
+                 },
+                 {
+                   "code": "kr",
+                   "value": 4.666666667
+                 },
+                 {
+                   "code": "kv",
+                   "value": 85
+                 },
+                 {
+                   "code": "kw",
+                   "value": 100
+                 },
+                 {
+                   "code": "la",
+                   "value": 109
+                 },
+                 {
+                   "code": "li",
+                   "value": 94.5
+                 },
+                 {
+                   "code": "lk",
+                   "value": 67
+                 },
+                 {
+                   "code": "lt",
+                   "value": 51
+                 },
+                 {
+                   "code": "lu",
+                   "value": 83.5
+                 },
+                 {
+                   "code": "lv",
+                   "value": 68
+                 },
+                 {
+                   "code": "ma",
+                   "value": 75.66666667
+                 },
+                 {
+                   "code": "my",
+                   "value": 40.5
+                 },
+                 {
+                   "code": "md",
+                   "value": 46.5
+                 },
+                 {
+                   "code": "mg",
+                   "value": 100
+                 },
+                 {
+                   "code": "mx",
+                   "value": 23
+                 },
+                 {
+                   "code": "mk",
+                   "value": 71.66666667
+                 },
+                 {
+                   "code": "mm",
+                   "value": 96
+                 },
+                 {
+                   "code": "me",
+                   "value": 92
+                 },
+                 {
+                   "code": "mn",
+                   "value": 43.5
+                 },
+                 {
+                   "code": "ng",
+                   "value": 81.16666667
+                 },
+                 {
+                   "code": "ni",
+                   "value": 81.33333333
+                 },
+                 {
+                   "code": "nl",
+                   "value": 29.16666667
+                 },
+                 {
+                   "code": "no",
+                   "value": 71.5
+                 },
+                 {
+                   "code": "nz",
+                   "value": 48.66666667
+                 },
+                 {
+                   "code": "pk",
+                   "value": 80.66666667
+                 },
+                 {
+                   "code": "pa",
+                   "value": 92.8
+                 },
+                 {
+                   "code": "py",
+                   "value": 73.33333333
+                 },
+                 {
+                   "code": "pe",
+                   "value": 23.83333333
+                 },
+                 {
+                   "code": "ph",
+                   "value": 46.33333333
+                 },
+                 {
+                   "code": "pl",
+                   "value": 27.16666667
+                 },
+                 {
+                   "code": "pt",
+                   "value": 41.83333333
+                 },
+                 {
+                   "code": "pr",
+                   "value": 86.66666667
+                 },
+                 {
+                   "code": "kp",
+                   "value": 8
+                 },
+                 {
+                   "code": "ro",
+                   "value": 14
+                 },
+                 {
+                   "code": "ru",
+                   "value": 5.166666667
+                 },
+                 {
+                   "code": "za",
+                   "value": 55.33333333
+                 },
+                 {
+                   "code": "sa",
+                   "value": 44.33333333
+                 },
+                 {
+                   "code": "sg",
+                   "value": 6.333333333
+                 },
+                 {
+                   "code": "sv",
+                   "value": 86.6
+                 },
+                 {
+                   "code": "rs",
+                   "value": 27.66666667
+                 },
+                 {
+                   "code": "ch",
+                   "value": 43.5
+                 },
+                 {
+                   "code": "sk",
+                   "value": 39
+                 },
+                 {
+                   "code": "si",
+                   "value": 64.33333333
+                 },
+                 {
+                   "code": "se",
+                   "value": 56.5
+                 },
+                 {
+                   "code": "sy",
+                   "value": 74.16666667
+                 },
+                 {
+                   "code": "th",
+                   "value": 11.33333333
+                 },
+                 {
+                   "code": "tj",
+                   "value": 55.16666667
+                 },
+                 {
+                   "code": "tm",
+                   "value": 57.2
+                 },
+                 {
+                   "code": "tt",
+                   "value": 86
+                 },
+                 {
+                   "code": "tn",
+                   "value": 76.83333333
+                 },
+                 {
+                   "code": "tr",
+                   "value": 16.83333333
+                 },
+                 {
+                   "code": "tw",
+                   "value": 9.333333333
+                 },
+                 {
+                   "code": "tz",
+                   "value": 102.6666667
+                 },
+                 {
+                   "code": "ae",
+                   "value": 100
+                 },
+                 {
+                   "code": "ug",
+                   "value": 97.2
+                 },
+                 {
+                   "code": "ua",
+                   "value": 16.16666667
+                 },
+                 {
+                   "code": "gb",
+                   "value": 16.16666667
+                 },
+                 {
+                   "code": "uy",
+                   "value": 88.5
+                 },
+                 {
+                   "code": "us",
+                   "value": 2
+                 },
+                 {
+                   "code": "uz",
+                   "value": 67
+                 },
+                 {
+                   "code": "ve",
+                   "value": 90.16666667
+                 },
+                 {
+                   "code": "vn",
+                   "value": 12.16666667
+                 },
+                 {
+                   "code": "zw",
+                   "value": 94
+                 }
+                ];
+
+    $.getJSON('world-palestine-lowres.geo.json', function (geojson) {
+
+        // Initiate the chart
+        $('#container').highcharts('Map', {
+
+            title : {
+                text : 'IMO 2010-16 Mean Rank by Country'
+            },
+
+            mapNavigation: {
+                enabled: true,
+                buttonOptions: {
+                    verticalAlign: 'bottom'
+                }
+            },
+
+            colorAxis: {
+                maxColor: '#0000FF',
+                minColor: '#00FF00',
+                min: 1,
+                max: 110
+            },
+
+            series : [{
+                data : data,
+                mapData: geojson,
+                joinBy: ['hc-key', 'code'],
+                name: 'IMO 2010-16 Mean Rank',
+                states: {
+                    hover: {
+                        color: '#BADA55'
+                    }
+                },
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.properties.postal}'
+                }
+            }]
+        });
+    });
+});
+		</script>
+	</head>
+	<body>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+
+
+<div id="container" style="min-width: 310px; max-width: 400px"></div>
+
+	</body>
+</html>
